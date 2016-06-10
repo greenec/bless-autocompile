@@ -1,4 +1,4 @@
-# bless-autocompiler
+# bless-autocompile
 ## Installation
 ```
 npm install -g bless@3.0.3
