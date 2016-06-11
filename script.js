@@ -17,26 +17,3 @@ function bless(startPath, endPath) {
     { stdio: 'inherit' }
   );
 }
-
-/*
-function processStartPath(dir) {
-  return dir + "/" + fs.readdirSync(dir)[0];
-}
-
-var prompt = require('prompt');
-
-prompt.start();
-
-prompt.get(['startPath', 'endPath'], function(err, result) {
-  if(err) {
-    console.log(err);
-  } else {
-    startPath = processStartPath(result.startPath);
-    endPath = result.endPath;
-    bless(startPath, endPath);
-    fs.watchFile(startPath, function() {
-      bless(startPath, endPath);
-    });
-  }
-});
-*/
