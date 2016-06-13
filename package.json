@@ -2,7 +2,6 @@
   "name": "bless-autocompile",
   "version": "1.0.0",
   "dependencies": {
-    "bless": "3.0.3",
-    "fs": "0.0.2"
+    "bless": "3.0.3"
   }
 }
