@@ -2,7 +2,6 @@
 ## Installation
 ```
 npm install -g bless@3.0.3
-npm install -g fs
 ```
 ## Usage
 ```
